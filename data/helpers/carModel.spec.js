@@ -12,7 +12,7 @@ describe("cars model", () => {
         make: "Toyota",
         model: "ILX",
         mileage: 1500,
-        transmission_type: "9-speed automatic",
+        transmission_type: "10-speed automatic",
         status_title: "clean",
       });
       await Cars.add({
@@ -20,7 +20,7 @@ describe("cars model", () => {
         make: "Honda",
         model: "CLI",
         mileage: 20000,
-        transmission_type: "9-speed automatic",
+        transmission_type: "10-speed automatic",
         status_title: "clean",
       });
 
